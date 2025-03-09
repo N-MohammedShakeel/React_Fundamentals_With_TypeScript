@@ -1,10 +1,14 @@
 import React from "react";
-import Counter from "./component/Counter";
+import CounterUsingContext from "./component/CounterUsingContext";
+import CounterWithReducer from "./component/CounterWithReducer";
+import CounterUsingReducer from "./component/CounterUsingReducer";
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <CounterUsingContext />
+      <CounterWithReducer />
+      <CounterUsingReducer />
     </div>
   );
 };
